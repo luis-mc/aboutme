@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luis Carvalho — Chief Technology Officer, FARFETCH</title>
+
+  <script>
+    // Canonical host guard. This site answers on more hosts than the canonical one:
+    // the bare apex, and Firebase's default *.web.app / *.firebaseapp.com domains.
+    // rel=canonical tells crawlers which to index; this sends real visitors to the
+    // canonical host so links, shares and analytics don't fragment across them.
+    // Any host that isn't canonical and isn't local development is redirected.
+    (function () {
+      var CANONICAL = 'www.luis-carvalho.com';
+      var h = location.hostname;
+      if (h === CANONICAL) return;
+      if (h.indexOf('.') === -1 || h === '127.0.0.1' || h === '[::1]') return; // local dev
+      location.replace('https://' + CANONICAL + location.pathname + location.search + location.hash);
+    })();
+  </script>
+  <meta name="description" content="Luis Carvalho is Chief Technology Officer at FARFETCH, leading Product, Engineering, Research, and Infrastructure behind one of the world's top luxury fashion platforms. Twenty years building technology across Microsoft, Life360, and AI at global scale." />
+  <meta name="author" content="Luis Carvalho" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+  <link rel="canonical" href="https://www.luis-carvalho.com/" />
+
+  <link rel="alternate" hreflang="en" href="https://www.luis-carvalho.com/" />
+  <link rel="alternate" hreflang="pt-PT" href="https://www.luis-carvalho.com/pt/" />
+  <link rel="alternate" hreflang="x-default" href="https://www.luis-carvalho.com/" />
+
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="Luis Carvalho — Chief Technology Officer, FARFETCH" />
+  <meta property="og:description" content="Luis Carvalho is Chief Technology Officer at FARFETCH, leading Product, Engineering, Research, and Infrastructure behind one of the world's top luxury fashion platforms." />
+  <meta property="og:url" content="https://www.luis-carvalho.com/" />
+  <meta property="og:site_name" content="Luis Carvalho" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:image" content="https://www.luis-carvalho.com/og-image.png?v=5" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Luis Carvalho — Chief Technology Officer, FARFETCH" />
+  <meta property="profile:first_name" content="Luis" />
+  <meta property="profile:last_name" content="Carvalho" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:creator" content="@luismcarvalho" />
+  <meta name="twitter:title" content="Luis Carvalho — Chief Technology Officer, FARFETCH" />
+  <meta name="twitter:description" content="Luis Carvalho is Chief Technology Officer at FARFETCH, leading Product, Engineering, Research, and Infrastructure behind one of the world's top luxury fashion platforms." />
+  <meta name="twitter:image" content="https://www.luis-carvalho.com/og-image.png?v=5" />
+  <meta name="twitter:image:alt" content="Luis Carvalho — Chief Technology Officer, FARFETCH" />
+
+  <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/style.css?v=7" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.luis-carvalho.com/#person",
+        "name": "Luis Carvalho",
+        "alternateName": ["Luís Carvalho", "Luis M. Carvalho", "Luís M. Carvalho"],
+        "jobTitle": "Chief Technology Officer",
+        "worksFor": { "@id": "https://www.luis-carvalho.com/#farfetch" },
+        "url": "https://www.luis-carvalho.com/",
+        "mainEntityOfPage": { "@id": "https://www.luis-carvalho.com/#profilepage" },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.luis-carvalho.com/photo.jpg",
+          "width": 800,
+          "height": 800,
+          "caption": "Luis Carvalho, Chief Technology Officer at FARFETCH"
+        },
+        "nationality": { "@type": "Country", "name": "Portugal" },
+        "sameAs": [
+          "https://www.linkedin.com/in/luiscarvalho",
+          "https://x.com/luismcarvalho",
+          "https://github.com/luis-mc",
+          "https://www.crunchbase.com/person/luis-carvalho",
+          "https://congresso2021.apdc.pt/speakers/luis-carvalho"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "PT"
+        },
+        "alumniOf": { "@type": "EducationalOrganization", "name": "Universidade do Minho" },
+        "knowsAbout": [
+          "Software Architecture", "Machine Learning", "Artificial Intelligence",
+          "Technology Leadership", "Cloud Infrastructure", "Mobile Technology",
+          "Luxury Fashion Technology", "E-commerce Platform Engineering", "Security and Data Governance",
+          "Software Quality Management", "Software Testing"
+        ],
+        "description": "Luis Carvalho is the Chief Technology Officer at FARFETCH, leading Product, Engineering, Research, and Infrastructure behind one of the world's leading luxury fashion platforms, serving customers in more than 190 countries.",
+        "hasCredential": [{
+          "@type": "EducationalOccupationalCredential",
+          "name": "Deep Learning Specialisation",
+          "credentialCategory": "Professional Certificate",
+          "educationalLevel": "Advanced"
+        }],
+        "award": "Google Android Developer Challenge Winner"
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://www.luis-carvalho.com/#farfetch",
+        "name": "FARFETCH",
+        "url": "https://www.farfetch.com",
+        "sameAs": [
+          "https://en.wikipedia.org/wiki/Farfetch",
+          "https://www.linkedin.com/company/farfetch.com"
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://www.luis-carvalho.com/#maincheck",
+        "name": "Maincheck",
+        "legalName": "MainCheck, Lda",
+        "description": "A consultancy working exclusively on software quality management and testing — application lifecycle assessments, test labs, and performance, security and automation testing.",
+        "knowsAbout": ["Software Quality Management", "Software Testing", "Test Automation", "Performance Testing", "Security Testing"],
+        "founder": { "@id": "https://www.luis-carvalho.com/#person" },
+        "foundingDate": "2011-08",
+        "parentOrganization": { "@id": "https://www.luis-carvalho.com/#farfetch" },
+        "sameAs": ["https://www.crunchbase.com/organization/maincheck"],
+        "foundingLocation": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Braga",
+            "addressCountry": "PT"
+          }
+        }
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.luis-carvalho.com/#architecture-at-farfetch",
+        "headline": "Architecture @ Farfetch",
+        "url": "https://www.linkedin.com/pulse/architecture-farfetch-luis-carvalho/",
+        "datePublished": "2018-11-22",
+        "author": { "@id": "https://www.luis-carvalho.com/#person" },
+        "about": ["Software Architecture", "Engineering Organisation", "E-commerce Platform Engineering"],
+        "inLanguage": "en"
+      },
+      {
+        "@type": "OpinionNewsArticle",
+        "@id": "https://www.luis-carvalho.com/#metaverse-moda-ou-nova-realidade",
+        "headline": "Metaverse, moda ou nova realidade?",
+        "url": "https://tek.sapo.pt/opiniao/artigos/opiniao-metaverse-moda-ou-nova-realidade/",
+        "datePublished": "2022-03-03",
+        "author": { "@id": "https://www.luis-carvalho.com/#person" },
+        "publisher": { "@type": "Organization", "name": "SAPO TEK", "url": "https://tek.sapo.pt/" },
+        "about": ["Metaverse", "Web3", "Luxury Fashion Technology"],
+        "inLanguage": "pt-PT"
+      },
+      {
+        "@type": "ProfilePage",
+        "@id": "https://www.luis-carvalho.com/#profilepage",
+        "url": "https://www.luis-carvalho.com/",
+        "name": "Luis Carvalho — Chief Technology Officer, FARFETCH",
+        "mainEntity": { "@id": "https://www.luis-carvalho.com/#person" },
+        "isPartOf": { "@id": "https://www.luis-carvalho.com/#website" },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.luis-carvalho.com/#website",
+        "url": "https://www.luis-carvalho.com/",
+        "name": "Luis Carvalho",
+        "description": "Official website of Luis Carvalho, Chief Technology Officer at FARFETCH.",
+        "author": { "@id": "https://www.luis-carvalho.com/#person" },
+        "inLanguage": "en-US"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <nav id="nav">
+    <div class="nav-inner">
+      <span class="nav-name">LC</span>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Journey</a></li>
+        <li><a href="#focus">What I Care About</a></li>
+        <li><a href="#writing">Writing</a></li>
+        <li><a href="#recognition">Recognition</a></li>
+        <li><a href="#projects">Side Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="nav-lang"><a href="/pt/" hreflang="pt-PT" lang="pt-PT">PT</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="hero">
+      <div class="hero-inner">
+        <div class="hero-portrait">
+          <img src="/photo.jpg?v=3" alt="Luis Carvalho, Chief Technology Officer at FARFETCH"
+               width="800" height="800" fetchpriority="high" decoding="async" />
+        </div>
+        <div class="hero-copy">
+          <h1 class="hero-name">Luis Carvalho</h1>
+          <span class="hero-rule" aria-hidden="true"></span>
+          <p class="hero-eyebrow">Chief Technology Officer<span class="hero-sep"> · </span>FARFETCH</p>
+          <p class="hero-tagline">
+            From the first wave of mobile to AI at global scale — two decades spent building
+            technology that moves businesses forward.
+          </p>
+          <div class="hero-cta">
+            <a href="#about" class="btn btn-primary">My story</a>
+            <a href="https://www.linkedin.com/in/luiscarvalho" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll-hint"><span></span></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="section-inner">
+        <div class="about-grid">
+          <div class="about-text">
+            <h2 class="section-label">About</h2>
+            <p class="about-lead">
+              I've spent more than twenty years chasing one question: how do you build
+              technology that genuinely moves a business forward?
+            </p>
+            <p>
+              That question took me from a Portuguese startup to <strong>Microsoft</strong>, then to
+              co-founding <strong>Maincheck</strong> — acquired by FARFETCH in 2013 — and on to
+              <strong>FARFETCH</strong> itself.
+              I lead Technology as a single, connected discipline — Product, Engineering,
+              Research, and Infrastructure working as one — behind a platform that brings the
+              world's best luxury boutiques to customers in more than 190 countries.
+            </p>
+            <p>
+              I joined FARFETCH in 2013 and have grown with the company, from leading a small technology team to now CTO.
+              Throughout this journey, I have focused on the key factors that determine a platform's success: 
+              solid architecture, prioritizing performance, scalability, security, and reliable data, 
+              and building a culture where everyone on the technology team can do their best work.
+           </p>
+            <p>
+              My interest in mobile technology began well before smartphones became common. 
+              I developed my skills at <strong>MobiComp</strong>, a Braga-based startup that Microsoft acquired in 2008, 
+              and I was part of the team that won the first <strong>Google Android Developer Challenge</strong> for the first <strong>Life360</strong> app on Android.
+              I studied Computer Science at the <strong>Universidade do Minho</strong>, and I still love learning, 
+              most recently about deep learning and machine learning engineering.
+            </p>
+          </div>
+          <div class="about-side">
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number">20+</span>
+              <span class="stat-label">Years in tech</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">2013</span>
+              <span class="stat-label">Joined FARFETCH</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">190+</span>
+              <span class="stat-label">Countries served</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">7K+</span>
+              <span class="stat-label">LinkedIn followers</span>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section-dark">
+      <div class="section-inner">
+        <h2 class="section-label">The Journey</h2>
+        <div class="timeline">
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <img src="/logos/farfetch.svg" alt="FARFETCH" class="timeline-logo" />
+                <span class="timeline-company">FARFETCH</span>
+                <span class="timeline-period">2013 — present</span>
+              </div>
+              <h3 class="timeline-role">Chief Technology Officer</h3>
+              <p>I lead Technology at FARFETCH end to end — Product, Engineering, Research, and Infrastructure under one roof. The mandate is simple to say and hard to do: set the platform's long-term direction, keep engineering excellent as it scales, and make sure technology is always serving the business and the customer.</p>
+              <ul class="timeline-highlights">
+                <li>Guided the architecture of the FARFETCH platform as it grew into one of the world's leading luxury marketplaces</li>
+                <li>Made AI and machine learning a strategic lever — for discovery, for the customer experience, and for how the business runs</li>
+                <li>Built and grew an international Technology organisation spanning multiple countries</li>
+                <li>Set the foundations for security, data governance, and infrastructure that operate reliably at global scale</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <img src="/logos/farfetch.svg" alt="FARFETCH" class="timeline-logo" />
+                <span class="timeline-company">FARFETCH</span>
+                <span class="timeline-period">earlier years</span>
+              </div>
+              <h3 class="timeline-role">Head → SVP, Technology</h3>
+              <p>I joined as FARFETCH was finding its feet and helped it sprint. I set the architectural direction during the company's steepest growth, and shaped the engineering principles and practices that let a young platform scale without losing its way.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-company">Maincheck</span>
+                <span class="timeline-period">2011 — 2015</span>
+              </div>
+              <h3 class="timeline-role">Co-Founder</h3>
+              <p>The company I started with others: a consultancy working exclusively on software quality management and testing. We ran independent application-lifecycle assessments, stood up test labs, and took on the work teams tend to postpone — performance, security, automation. I led internal research and product development, and worked as principal consultant on application lifecycle management. It came from a conviction I still hold, that quality isn't a phase bolted on at the end but part of how software gets built. FARFETCH bought the company in January 2013 — which is how I arrived there — and I stayed on its board until April 2015. Founding something put me on the other side of the table, a different education from any job.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <img src="/logos/microsoft.svg" alt="Microsoft" class="timeline-logo" />
+                <span class="timeline-company">Microsoft</span>
+                <span class="timeline-period">2008 — 2011</span>
+              </div>
+              <h3 class="timeline-role">Mobile Services R&amp;D</h3>
+              <p>When Microsoft acquired MobiComp in 2008, I joined to help stand up Microsoft's first mobile-services R&amp;D centre in Europe, based in Braga. It was a front-row seat to the mobile revolution as it was happening — building cloud-connected services for a world that was only just going wireless.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <img src="/logos/life360.svg" alt="Life360" class="timeline-logo" />
+                <span class="timeline-company">Life360</span>
+                <span class="timeline-period">early mobile</span>
+              </div>
+              <h3 class="timeline-role">Android Engineering</h3>
+              <p>I was part of the team behind the first Life360 application for Android — work that won a Google Android Developer Challenge, one of the platform's earliest global accolades. Building for Android when the SDK was brand new taught me how to ship on shifting ground.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <img src="/logos/mobicomp.png" alt="MobiComp" class="timeline-logo" style="filter: invert(1) grayscale(1); mix-blend-mode: screen;" />
+                <span class="timeline-company">MobiComp</span>
+                <span class="timeline-period">2001 — 2008</span>
+              </div>
+              <h3 class="timeline-role">Software Developer → Architect</h3>
+              <p>Where it all began. I grew up as an engineer at MobiComp, a Braga startup, rising from developer to architect and helping drive product innovation across mobile operator data and video services, mobile banking platforms, and retail solutions — until Microsoft came knocking in 2008.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FOCUS -->
+    <section id="focus">
+      <div class="section-inner">
+        <h2 class="section-label">What I Care About</h2>
+        <p class="section-intro">The themes I keep coming back to — in the work itself, and in what I'm still learning.</p>
+        <div class="focus-grid">
+
+          <div class="focus-card">
+            <div class="focus-icon">◈</div>
+            <h3>AI &amp; Machine Learning</h3>
+            <p>Putting deep learning to work on real problems — discovery, search, the customer experience, and the everyday intelligence that keeps a business sharp.</p>
+          </div>
+
+          <div class="focus-card">
+            <div class="focus-icon">◈</div>
+            <h3>Architecture That Lasts</h3>
+            <p>Systems that are resilient today and easy to change tomorrow. The best architecture buys you speed later — not just stability now.</p>
+          </div>
+
+          <div class="focus-card">
+            <div class="focus-icon">◈</div>
+            <h3>Security by Default</h3>
+            <p>Trust is earned in the design, not bolted on at the end. I treat security, governance, and compliance as part of how good engineering is done.</p>
+          </div>
+
+          <div class="focus-card">
+            <div class="focus-icon">◈</div>
+            <h3>Infrastructure at Scale</h3>
+            <p>Quietly reliable, fast infrastructure carrying millions of transactions across time zones — the kind customers never have to think about.</p>
+          </div>
+
+          <div class="focus-card">
+            <div class="focus-icon">◈</div>
+            <h3>Data You Can Trust</h3>
+            <p>Data is only an asset if you can believe it. Quality, lineage, and accountability are what turn dashboards into real decisions.</p>
+          </div>
+
+          <div class="focus-card">
+            <div class="focus-icon">◈</div>
+            <h3>Open Source &amp; Curiosity</h3>
+            <p>Giving back to the ecosystem we all build on, and keeping a steady investment in research so we're ready for what's next.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- WRITING -->
+    <section id="writing" class="section-dark">
+      <div class="section-inner">
+        <h2 class="section-label">Writing, Speaking &amp; Press</h2>
+        <p class="section-intro">A few of the talks, pieces and conversations I've shared over the years.</p>
+        <div class="writing-list">
+          <article class="writing-item">
+            <span class="writing-year">2026</span>
+            <div class="writing-body">
+              <h3><a href="https://www.drapersonline.com/insight/analysis/from-ai-to-b-how-artificial-intelligence-is-powering-supply-chains" target="_blank" rel="noopener noreferrer">How artificial intelligence is powering supply chains</a></h3>
+              <p>A Drapers analysis of how the industry is putting AI to work on inventory and disruption, with FARFETCH among the businesses examined alongside Hugo Boss, Pentland Brands and others.</p>
+              <span class="writing-type">Press · Drapers</span>
+            </div>
+          </article>
+
+          <article class="writing-item">
+            <span class="writing-year">2025</span>
+            <div class="writing-body">
+              <h3><a href="https://www.linkedin.com/posts/farfetch.com_portugaldigitalsummit-ai-customerexperience-activity-7388530526837678080-h79l" target="_blank" rel="noopener noreferrer">Customer Experience &amp; Content Creation — Portugal Digital Summit</a></h3>
+              <p>A panel on how AI is reshaping personalisation — what customers see, when, why and how. My argument: hyper-personalisation and generative media are what lift the customer journey, but creativity, strategy and ethics are not the parts to automate.</p>
+              <span class="writing-type">Panel · Portugal Digital Summit</span>
+            </div>
+          </article>
+
+          <article class="writing-item">
+            <span class="writing-year">2025</span>
+            <div class="writing-body">
+              <h3><a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7351270029042118656/" target="_blank" rel="noopener noreferrer">FARFETCH × Google AI Week</a></h3>
+              <p>Three days of webinars and workshops with Google on where AI genuinely earns its place in luxury retail — virtual try-on, marketing and asset creation, video generation — and what it takes to adopt it deliberately rather than bolt it on.</p>
+              <span class="writing-type">Video · FARFETCH × Google</span>
+            </div>
+          </article>
+
+        </div>
+        <a class="writing-more" href="/writing/">All writing, speaking &amp; press &rarr;</a>
+      </div>
+    </section>
+
+    <!-- RECOGNITION -->
+    <section id="recognition">
+      <div class="section-inner">
+        <h2 class="section-label">Recognition</h2>
+        <div class="recognition-grid">
+
+          <div class="recognition-card">
+            <span class="recognition-year">2008</span>
+            <h3>Google Android Developer Challenge</h3>
+            <p>Winner with the team behind the first Life360 app for Android — among the very earliest projects recognised by Google as the Android platform was finding its feet.</p>
+          </div>
+
+          <div class="recognition-card">
+            <span class="recognition-year">2018 — 2019</span>
+            <h3>Deep Learning Specialisation</h3>
+            <p>Completed the full Coursera Deep Learning Specialisation — neural networks, hyperparameter tuning, structuring ML projects — alongside Google Cloud's Big Data &amp; ML Fundamentals. Proof that the student never really graduates.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <!-- SIDE PROJECTS -->
+    <section id="projects" class="section-dark">
+      <div class="section-inner">
+        <h2 class="section-label">Side Projects</h2>
+        <p class="section-intro">Weekend builds — the best way to understand new tools is still to ship something with them.</p>
+        <div class="writing-list">
+          <article class="writing-item">
+            <span class="writing-year">Python</span>
+            <div class="writing-body">
+              <h3><a href="https://github.com/luis-mc/dev-standards" target="_blank" rel="noopener noreferrer">dev-standards</a></h3>
+              <p>A personal Claude Code marketplace that scaffolds engineering standards — security, compliance and performance tooling — into new or existing repositories.</p>
+              <span class="writing-type">Open source · GitHub</span>
+            </div>
+          </article>
+
+          <article class="writing-item">
+            <span class="writing-year">JS</span>
+            <div class="writing-body">
+              <h3><a href="https://github.com/luis-mc/wc26-sticker-tracker" target="_blank" rel="noopener noreferrer">wc26-sticker-tracker</a></h3>
+              <p>A FIFA World Cup 2026 Panini sticker tracker — a family project for keeping up with our collection and trading with friends. Running live at <a href="https://ffwc26.luismc.net/" target="_blank" rel="noopener noreferrer">ffwc26.luismc.net</a>.</p>
+              <span class="writing-type">Open source · GitHub</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="section-inner contact-inner">
+        <h2 class="section-label">Contact</h2>
+        <p class="contact-intro">Always happy to talk technology, leadership, or what's coming next. Reach out.</p>
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/in/luiscarvalho" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/luis-mc" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+            </svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <span>© 2026 Luis Carvalho</span>
+      <span>Portugal</span>
+    </div>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>
