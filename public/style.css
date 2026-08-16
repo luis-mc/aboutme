@@ -479,18 +479,15 @@ section { padding: var(--section-pad); }
 .writing-body p a:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
 
 /* ===== SIDE PROJECTS =====
-   Off-duty accent: the professional sections speak gold; this one speaks a
-   light orange on a warm-shifted ground. Same type, same layout — different tone. */
+   Off-duty accent: the professional sections speak gold; this one speaks
+   coral. Ground and cards stay the site's own navy — a warm-tinted ground
+   made the accent read brown, while navy pushes it brighter by contrast,
+   so the section differs by hue alone. */
 #projects {
-  --side: #eda36c;
-  --side-border: rgba(237, 163, 108, 0.22);
-  background: #171310;
+  --side: #ff9d76;
+  --side-border: rgba(255, 157, 118, 0.24);
+  background: var(--navy-2);
 }
-/* Cards inherit the blue navy-3 panel from .writing-item; on the warm ground
-   they must be the warm equivalent, or they read as a leftover from the
-   professional sections. Hover keeps the shared translucent-white treatment. */
-#projects .writing-item { background: #221a12; }
-#projects .writing-item:hover { background: rgba(255, 255, 255, 0.03); }
 #projects .section-label { color: var(--side); }
 #projects .section-label::after { background: var(--side); }
 #projects .writing-year { color: var(--side); }
