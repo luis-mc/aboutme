@@ -8,10 +8,4 @@ Thumbs.db
 
 # Environment
 .env*
-
-# Next.js leftovers
-.next/
-out/
-node_modules/
-.firebase/hosting.cHVibGlj.cache
-*.cache
+!.env*.example
