@@ -1,6 +1,8 @@
-# Firebase
-.firebase/
+# Logs
 *.log
+
+# Vercel
+.vercel
 
 # OS
 .DS_Store

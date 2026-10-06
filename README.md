@@ -7,3 +7,7 @@ I'm Luis Carvalho, Chief Technology Officer at FARFETCH. The site is where I kee
 It's available in English and in Portuguese ([/pt/](https://www.luis-carvalho.com/pt/)).
 
 Elsewhere: [LinkedIn](https://www.linkedin.com/in/luiscarvalho) · [GitHub](https://github.com/luis-mc)
+
+## How it's built and hosted
+
+A plain static site: everything served lives in `public/`, with no build step. [Vercel](https://vercel.com) hosts it (configuration and response headers are in `vercel.json`) and deploys on every push to `main`. DNS is on Cloudflare (DNS only, no proxy) and the domain is registered at Namecheap.
