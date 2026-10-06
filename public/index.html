@@ -10,12 +10,14 @@
     // the bare apex, and Firebase's default *.web.app / *.firebaseapp.com domains.
     // rel=canonical tells crawlers which to index; this sends real visitors to the
     // canonical host so links, shares and analytics don't fragment across them.
-    // Any host that isn't canonical and isn't local development is redirected.
+    // Any host that isn't canonical, isn't local development and isn't a Vercel
+    // preview/deployment URL is redirected.
     (function () {
       var CANONICAL = 'www.luis-carvalho.com';
       var h = location.hostname;
       if (h === CANONICAL) return;
       if (h.indexOf('.') === -1 || h === '127.0.0.1' || h === '[::1]') return; // local dev
+      if (h.slice(-11) === '.vercel.app') return; // Vercel deployment and preview URLs
       location.replace('https://' + CANONICAL + location.pathname + location.search + location.hash);
     })();
   </script>
